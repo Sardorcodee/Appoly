@@ -1,0 +1,57 @@
+footer {
+  font-family: sans-serif;
+  padding-top: 10em;
+  padding-bottom: 0.1em;
+  background-color: #232233;
+  color: white;
+ 
+  .container {
+    h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 31.25px;
+      line-height: 47px;
+      color: white;
+      text-transform: uppercase;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #c5c3c3;
+    }
+    a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #c5c3c3;
+      &:hover {
+        color: #5956e9;
+      }
+    }
+    form{
+        width: 240px;
+    }
+    input {
+      width: 240px;
+      height: 50px;
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 1em;
+      position: relative;
+    }
+    button {
+      position: absolute;
+      border: none;
+      right: 0.3em;
+      top: 0.2em;
+      font-size: 1.5em;
+      padding: 0.1em 0.6em;
+      color: white;
+      border-radius: 6px;
+      background-color: #5956E9;
+    }
+  }
+}

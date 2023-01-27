@@ -1,0 +1,225 @@
+#showcase {
+  .card-show {
+    background-color: white;
+    max-width: 570px;
+    height: auto;
+    padding: 1em;
+    border: 2px solid #5956e9;
+    h1 {
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48.83px;
+      line-height: 63px;
+      text-transform: uppercase;
+      color: #5956e9;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      color: #6c6c72;
+      margin-bottom: 2em;
+      margin-top: 2em;
+    }
+    h2 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 38px;
+      text-transform: uppercase;
+      color: #232233;
+      margin-top: 1em;
+    }
+  }
+  .showimg {
+    max-width: 300px;
+  }
+  .imgapk {
+    max-width: 111px;
+  }
+}
+#About {
+  padding: 5em;
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #232233;
+  }
+  p {
+    max-width: 600px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c6c72;
+  }
+  .row {
+    .imgAbout{
+      max-width: 300px;
+    }
+    .card-about {
+      background: #ffffff;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: start;
+      padding: 1em 0em;
+
+      .Galochka {
+        max-width: 55px;
+        max-height: 30px;
+      }
+      h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #232233;
+      }
+      p {
+        margin-right: 1em;
+        margin-left: 4.2em;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        color: #6c6c72;
+      }
+    }
+  }
+}
+#Features {
+  padding: 5em;
+  background-image: url(/public/img/Background.png);
+  .container {
+    margin: 0 auto;
+    h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 31.25px;
+      line-height: 47px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    p {
+      max-width: 600px;
+      font-style: normal;
+      font-weight: 400;
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+    .row {
+      span {
+        color: white;
+        font-size: 2em;
+      }
+      h2 {
+        color: #ffffff;
+        font-size: 15px;
+      }
+      p {
+        font-size: 16px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+#Blog {
+  position: relative;
+  padding: 4em;
+  padding-bottom: 8em;
+  .container {
+    h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 31.25px;
+      line-height: 47px;
+      text-transform: uppercase;
+      color: black;
+    }
+    p {
+      max-width: 600px;
+      font-style: normal;
+      font-weight: 400;
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 24px;
+      color: #232233;
+      margin-bottom: 3em;
+    }
+    .row {
+      .card-blog {
+       width: 370px;
+        text-align: start;
+        background: #ffffff;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 0;
+        padding-bottom: 1em;
+        &:hover {
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+        }
+        img {
+          position: relative;
+          margin: 0 !important;
+          width: 300px;
+        }
+        h2 {
+          margin-left: 0.7em;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 30px;
+          color: black;
+          text-transform: uppercase;
+        }
+        p {
+          margin-top: 0.5em;
+          margin-bottom: 1em;
+          margin-left: 0.8em;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #6c6c72;
+          
+        }
+        a {
+          margin-left: 0.8em;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 100%;
+          text-decoration-line: underline;
+          text-transform: uppercase;
+          color: #5851ea;
+        }
+      }
+    }
+  }
+  .card-con {
+    width: 100%;
+    position: absolute;
+    bottom: -12em;
+    left: 0;
+    padding: 1em 0;
+    border-radius: 15px;
+    background-color: #ffffff;
+    filter: drop-shadow(0px 10px 100px rgba(0, 0, 0, 0.24));
+    i{
+      padding: 1em;
+      font-size: 1.5em;
+      color: #ffffff;
+      border-radius: 50%;
+      background-color: #5851ea;
+    }
+  }
+}
